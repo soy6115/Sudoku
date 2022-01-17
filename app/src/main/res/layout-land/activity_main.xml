@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/divContenedor"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="10dp"
+    android:background="@drawable/bg"
+
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tlTablero"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+
+        android:stretchColumns="@string/hint"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btResolver"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/caja00"
+                style="@style/CajasHorizontal"
+                android:layout_column="0"
+                android:background="@drawable/bordert1l1"
+                android:importantForAutofill="no"
+                android:labelFor="@id/caja00" />
+
+            <EditText
+                android:id="@+id/caja01"
+                style="@style/CajasHorizontal"
+                android:layout_column="1"
+                android:background="@drawable/bordert1l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja02"
+                style="@style/CajasHorizontal"
+                android:layout_column="2"
+                android:background="@drawable/bordert1l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja03"
+                style="@style/CajasHorizontal"
+                android:layout_column="3"
+                android:background="@drawable/bordert1l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja04"
+                style="@style/CajasHorizontal"
+                android:layout_column="4"
+                android:background="@drawable/bordert1l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja05"
+                style="@style/CajasHorizontal"
+                android:layout_column="5"
+                android:background="@drawable/bordert1l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja06"
+                style="@style/CajasHorizontal"
+                android:layout_column="6"
+                android:background="@drawable/bordert1l1"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/caja07"
+                style="@style/CajasHorizontal"
+                android:layout_column="7"
+                android:background="@drawable/bordert1l2"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/caja08"
+                style="@style/CajasHorizontal"
+                android:layout_column="8"
+                android:background="@drawable/bordert1l2r1"
+                android:importantForAutofill="no" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/caja10"
+                style="@style/CajasHorizontal"
+                android:layout_column="0"
+                android:background="@drawable/bordert2l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja11"
+                style="@style/CajasHorizontal"
+                android:layout_column="1"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja12"
+                style="@style/CajasHorizontal"
+                android:layout_column="2"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja13"
+                style="@style/CajasHorizontal"
+                android:layout_column="3"
+                android:background="@drawable/bordert2l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja14"
+                style="@style/CajasHorizontal"
+                android:layout_column="4"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja15"
+                style="@style/CajasHorizontal"
+                android:layout_column="5"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja16"
+                style="@style/CajasHorizontal"
+                android:layout_column="6"
+                android:background="@drawable/bordert2l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja17"
+                style="@style/CajasHorizontal"
+                android:layout_column="7"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja18"
+                style="@style/CajasHorizontal"
+                android:layout_column="8"
+                android:background="@drawable/bordert2l2r1"
+                android:importantForAutofill="no" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/caja20"
+                style="@style/CajasHorizontal"
+                android:layout_column="0"
+                android:background="@drawable/bordert2l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja21"
+                style="@style/CajasHorizontal"
+                android:layout_column="1"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja22"
+                style="@style/CajasHorizontal"
+                android:layout_column="2"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja23"
+                style="@style/CajasHorizontal"
+                android:layout_column="3"
+                android:background="@drawable/bordert2l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja24"
+                style="@style/CajasHorizontal"
+                android:layout_column="4"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja25"
+                style="@style/CajasHorizontal"
+                android:layout_column="5"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja26"
+                style="@style/CajasHorizontal"
+                android:layout_column="6"
+                android:background="@drawable/bordert2l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja27"
+                style="@style/CajasHorizontal"
+                android:layout_column="7"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja28"
+                style="@style/CajasHorizontal"
+                android:layout_column="8"
+                android:background="@drawable/bordert2l2r1"
+                android:importantForAutofill="no" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/caja30"
+                style="@style/CajasHorizontal"
+                android:layout_column="0"
+                android:background="@drawable/bordert1l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja31"
+                style="@style/CajasHorizontal"
+                android:layout_column="1"
+                android:background="@drawable/bordert1l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja32"
+                style="@style/CajasHorizontal"
+                android:layout_column="2"
+                android:background="@drawable/bordert1l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja33"
+                style="@style/CajasHorizontal"
+                android:layout_column="3"
+                android:background="@drawable/bordert1l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja34"
+                style="@style/CajasHorizontal"
+                android:layout_column="4"
+                android:background="@drawable/bordert1l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja35"
+                style="@style/CajasHorizontal"
+                android:layout_column="5"
+                android:background="@drawable/bordert1l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja36"
+                style="@style/CajasHorizontal"
+                android:layout_column="6"
+                android:background="@drawable/bordert1l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja37"
+                style="@style/CajasHorizontal"
+                android:layout_column="7"
+                android:background="@drawable/bordert1l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja38"
+                style="@style/CajasHorizontal"
+                android:layout_column="8"
+                android:background="@drawable/bordert1l2r1"
+                android:importantForAutofill="no" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/caja40"
+                style="@style/CajasHorizontal"
+                android:layout_column="0"
+                android:background="@drawable/bordert2l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja41"
+                style="@style/CajasHorizontal"
+                android:layout_column="1"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja42"
+                style="@style/CajasHorizontal"
+                android:layout_column="2"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja43"
+                style="@style/CajasHorizontal"
+                android:layout_column="3"
+                android:background="@drawable/bordert2l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja44"
+                style="@style/CajasHorizontal"
+                android:layout_column="4"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja45"
+                style="@style/CajasHorizontal"
+                android:layout_column="5"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja46"
+                style="@style/CajasHorizontal"
+                android:layout_column="6"
+                android:background="@drawable/bordert2l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja47"
+                style="@style/CajasHorizontal"
+                android:layout_column="7"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja48"
+                style="@style/CajasHorizontal"
+                android:layout_column="8"
+                android:background="@drawable/bordert2l2r1"
+                android:importantForAutofill="no" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/caja50"
+                style="@style/CajasHorizontal"
+                android:layout_column="0"
+                android:background="@drawable/bordert2l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja51"
+                style="@style/CajasHorizontal"
+                android:layout_column="1"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja52"
+                style="@style/CajasHorizontal"
+                android:layout_column="2"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja53"
+                style="@style/CajasHorizontal"
+                android:layout_column="3"
+                android:background="@drawable/bordert2l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja54"
+                style="@style/CajasHorizontal"
+                android:layout_column="4"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja55"
+                style="@style/CajasHorizontal"
+                android:layout_column="5"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja56"
+                style="@style/CajasHorizontal"
+                android:layout_column="6"
+                android:background="@drawable/bordert2l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja57"
+                style="@style/CajasHorizontal"
+                android:layout_column="7"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja58"
+                style="@style/CajasHorizontal"
+                android:layout_column="8"
+                android:background="@drawable/bordert2l2r1"
+                android:importantForAutofill="no" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/caja60"
+                style="@style/CajasHorizontal"
+                android:layout_column="0"
+                android:background="@drawable/bordert1l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja61"
+                style="@style/CajasHorizontal"
+                android:layout_column="1"
+                android:background="@drawable/bordert1l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja62"
+                style="@style/CajasHorizontal"
+                android:layout_column="2"
+                android:background="@drawable/bordert1l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja63"
+                style="@style/CajasHorizontal"
+                android:layout_column="3"
+                android:background="@drawable/bordert1l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja64"
+                style="@style/CajasHorizontal"
+                android:layout_column="4"
+                android:background="@drawable/bordert1l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja65"
+                style="@style/CajasHorizontal"
+                android:layout_column="5"
+                android:background="@drawable/bordert1l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja66"
+                style="@style/CajasHorizontal"
+                android:layout_column="6"
+                android:background="@drawable/bordert1l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja67"
+                style="@style/CajasHorizontal"
+                android:layout_column="7"
+                android:background="@drawable/bordert1l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja68"
+                style="@style/CajasHorizontal"
+                android:layout_column="8"
+                android:background="@drawable/bordert1l2r1"
+                android:importantForAutofill="no" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/caja70"
+                style="@style/CajasHorizontal"
+                android:layout_column="0"
+                android:background="@drawable/bordert2l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja71"
+                style="@style/CajasHorizontal"
+                android:layout_column="1"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja72"
+                style="@style/CajasHorizontal"
+                android:layout_column="2"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja73"
+                style="@style/CajasHorizontal"
+                android:layout_column="3"
+                android:background="@drawable/bordert2l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja74"
+                style="@style/CajasHorizontal"
+                android:layout_column="4"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja75"
+                style="@style/CajasHorizontal"
+                android:layout_column="5"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja76"
+                style="@style/CajasHorizontal"
+                android:layout_column="6"
+                android:background="@drawable/bordert2l1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja77"
+                style="@style/CajasHorizontal"
+                android:layout_column="7"
+                android:background="@drawable/bordert2l2"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja78"
+                style="@style/CajasHorizontal"
+                android:layout_column="8"
+                android:background="@drawable/bordert2l2r1"
+                android:importantForAutofill="no" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/caja80"
+                style="@style/CajasHorizontal"
+                android:layout_column="0"
+                android:background="@drawable/bordert2l1b1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja81"
+                style="@style/CajasHorizontal"
+                android:layout_column="1"
+                android:background="@drawable/bordert2l2b1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja82"
+                style="@style/CajasHorizontal"
+                android:layout_column="2"
+                android:background="@drawable/bordert2l2b1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja83"
+                style="@style/CajasHorizontal"
+                android:layout_column="3"
+                android:background="@drawable/bordert2l1b1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja84"
+                style="@style/CajasHorizontal"
+                android:layout_column="4"
+                android:background="@drawable/bordert2l2b1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja85"
+                style="@style/CajasHorizontal"
+                android:layout_column="5"
+                android:background="@drawable/bordert2l2b1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja86"
+                style="@style/CajasHorizontal"
+                android:layout_column="6"
+                android:background="@drawable/bordert2l1b1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja87"
+                style="@style/CajasHorizontal"
+                android:layout_column="7"
+                android:background="@drawable/bordert2l2b1"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/caja88"
+                style="@style/CajasHorizontal"
+                android:layout_column="8"
+                android:background="@drawable/bordert1l1r2b2"
+                android:importantForAutofill="no" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <Button
+        android:id="@+id/btResolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/btResolver"
+        android:textSize="20sp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tlTablero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
